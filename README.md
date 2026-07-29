@@ -39,6 +39,7 @@ Preprint version: XXXX
 Information on the specifics of the climatic data obtained for this project can be found in this repository in the file `receipt_climate_data.txt` 
 - The maximum clade credibility tree was obtained from McTavish et al. 2025 v.1.6. https://doi.org/10.1073/pnas.2409658122 & https://github.com/McTavishLab/AvesData 
 - The functional trait data was obtained from Avonet; Tobias et al. 2022 https://doi.org/10.1111/ele.13898
+- Some of the code for extracting relevant data from Living Planet Database and for some analyses was based on Jackson et al 2022 article https://doi.org/10.7554/eLife.74161 and repository https://doi.org/10.5281/zenodo.6620489
 
 5. Recommended citation for this dataset: Bliard L, Griesser M, Germain R. (XXXX) Populations of cooperatively breeding birds are buffered against annual variation in rainfall and temperature. [Data set].
 If anyone wishes to use any of the data originating from the primary sources cited above, please cite the primary literature and not this repository.
