@@ -71,6 +71,26 @@ If anyone wishes to use any of the data originating from the primary sources cit
 
 2. Relationship between files, if important: 
 
+Code file `1-clean_living_planet.R` is first used to clean and subset the raw LPI data (available at https://livingplanetindex.org/data_portal), and also produces Figure S1.
+
+Code file `2-extract_climatic_data.R` requires the output of `1-clean_living_planet.R` as well as the grided climatic data (available at https://doi.org/10.24381/cds.f17050d7 ; see `receipt_climate_data.txt` for more information). This code file extracts the relevant climatic data (temperature, precipitation) for each year and each population at the location of population monitoring.
+
+Code file `3-temperature_growth_rate_link.R` requires the output of `2-extract_climatic_data.R`, and is used to estimate the sensitivity of the growth rate of each population to annual temperature changes. This is also producing Figure S2.
+
+Code file `4-rainfall_growth_rate_link.R` requires the output of `2-extract_climatic_data.R`, and is used to estimate the sensitivity of the growth rate of each population to annual precipitation changes. This is also producing Figure S3.
+
+Code file `5-combine_datasets.R` requires the output of `3-temperature_growth_rate_link.R` and `4-rainfall_growth_rate_link.R`, as well as the data from AVONET (https://doi.org/10.1111/ele.13898). This code file combines the sensitivity estimates for all the populations with life-history and sociality data.
+
+Code file `6-meta_regression_temperature.R` requires `final_dataset.txt` (which is the output produced by `5-combine_datasets.R`) and the phylogenetic tree `mcctree_mctavish_v1.6.nex` to perform the bayesian meta-regression for temperature sensitivity. This is also producing Figure 1.
+
+Code file `7-meta_regression_rainfall.R` requires `final_dataset.txt` (which is the output produced by `5-combine_datasets.R`) and the phylogenetic tree `mcctree_mctavish_v1.6.nex` to perform the bayesian meta-regression for precipitation sensitivity. This is also producing Figure 2.
+
+
+Code file `Fig_S4-sample_size_effect.R` requires the output of `3-temperature_growth_rate_link.R` and `4-rainfall_growth_rate_link.R` and produces Figure S4.
+
+Code file `Fig_S5-temperature_20_y.R` requires `final_dataset.txt` and the phylogenetic tree `mcctree_mctavish_v1.6.nex` to produce Figure S5.
+
+Code file `Fig_S6-rainfall_20_y.R` requires `final_dataset.txt` and the phylogenetic tree `mcctree_mctavish_v1.6.nex` to produce Figure S5.
 
 
 ## METHODOLOGICAL INFORMATION
