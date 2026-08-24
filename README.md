@@ -91,7 +91,7 @@ Code file `Fig_S4-sample_size_effect.R` requires the output of `3-temperature_gr
 
 Code file `Fig_S5-temperature_20_y.R` requires `final_dataset.txt` and the phylogenetic tree `mcctree_mctavish_v1.6.nex` to produce Figure S5.
 
-Code file `Fig_S6-rainfall_20_y.R` requires `final_dataset.txt` and the phylogenetic tree `mcctree_mctavish_v1.6.nex` to produce Figure S5.
+Code file `Fig_S6-rainfall_20_y.R` requires `final_dataset.txt` and the phylogenetic tree `mcctree_mctavish_v1.6.nex` to produce Figure S6.
 
 
 ## METHODOLOGICAL INFORMATION
