@@ -49,14 +49,14 @@ If anyone wishes to use any of the data originating from the primary sources cit
 
 1. File List:
 
-a. data
+/data
+- final_dataset.txt
 
+/code
 
-b. code
+/main
 
-b1. main
-
-b2. supplements
+/supplements
 
 
 2. Relationship between files, if important: 
@@ -195,13 +195,29 @@ See section "SESSION INFORMATION" below
  * ── Packages attached to the search path.
 ```
 
-## DATA-SPECIFIC INFORMATION FOR: `XXXX.txt`
+## DATA-SPECIFIC INFORMATION FOR: `final_dataset.txt`
 
-1. Number of variables: 
+1. Number of variables: 16
 
-2. Number of cases/rows: 
-   Each row correspond to one population
+2. Number of cases/rows: 2382 
+   Each row correspond to one population block
 
-3. Variable List: 
-
-4. Missing data codes: NA
+3. Variable List:
+- "id_block" = ID of the population and of the 'block' of consecutive years used to estimate climate sensitivity.
+- "species" = Species name, following tips from McTavish et al. phylogeny.
+- "sample_size" = Number of consecutive monitoring years used to estimate climatic sensitivity.
+- "slope_temperature" = Estimated slope of population growth rate sensitivity to annual temperature variation (change of log lambda per degree C).
+- "slope_rainfall" = Estimated slope of population growth rate sensitivity to annual precipitation variation (change of log lambda per 100mm).
+- "abs_slope_temperature" = Absolute value of the estimated temperature slope.
+- "abs_slope_rainfall" = Absolute value of the estimated precipitation slope.
+- "fam_sys_known50" = Known social system ("coop_families"=cooperative breeding species / "family"=family-living species / "no_fam"=non family living species).
+- "fam_sys_inferred50" = Inferred social system ("3_coop_families"=cooperative breeding species / "2_family"=family-living species / "1_no_fam"=non family living species).
+- "coop_num" = Inferred social system in a numerical format (3=cooperative breeding species / 2=family-living species / 1=non family living species).
+- "hand_wing_index" = Hand Wing Index.
+- "migration" = Migratory strategy (1=sedentary / 2=partially migratory / 3=migratory).
+- "mass" = Body mass (in grams).
+- "logmass" = Log of body mass.
+- "latitude" = Latitude of the population monitoring.
+- "abs_latitude" Absolute latitude of the population monitoring.
+  
+5. Missing data codes: NA
