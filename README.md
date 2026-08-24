@@ -52,6 +52,7 @@ If anyone wishes to use any of the data originating from the primary sources cit
 /data
 - `final_dataset.txt`
 - `mcctree_mctavish_v1.6.nex`
+- `receipt_climate_data.txt`
 
 /code
 
