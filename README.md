@@ -50,23 +50,24 @@ If anyone wishes to use any of the data originating from the primary sources cit
 1. File List:
 
 /data
-- final_dataset.txt
+- `final_dataset.txt`
+- `mcctree_mctavish_v1.6.nex`
 
 /code
 
 /code/main
-- 1-clean_living_planet.R
-- 2-extract_climatic_data.R
-- 3-temperature_growth_rate_link.R
-- 4-rainfall_growth_rate_link.R
-- 5-combine_datasets.R
-- 6-meta_regression_temperature.R
-- 7-meta_regression_rainfall.R
+- `1-clean_living_planet.R`
+- `2-extract_climatic_data.R`
+- `3-temperature_growth_rate_link.R`
+- `4-rainfall_growth_rate_link.R`
+- `5-combine_datasets.R`
+- `6-meta_regression_temperature.R`
+- `7-meta_regression_rainfall.R`
 
 /code/supplements
-- Fig_S4-sample_size_effect.R
-- Fig_S5-temperature_20_y.R
-- Fig_S6-rainfall_20_y.R
+- `Fig_S4-sample_size_effect.R`
+- `Fig_S5-temperature_20_y.R`
+- `Fig_S6-rainfall_20_y.R`
 
 2. Relationship between files, if important: 
 
