@@ -231,7 +231,7 @@ See section "SESSION INFORMATION" below
 1. Number of variables: 16
 
 2. Number of cases/rows: 2382 
-   Each row correspond to one population block
+   Each row corresponds to one population block
 
 3. Variable List:
 - "id_block" = ID of the population and of the 'block' of consecutive years used to estimate climate sensitivity.
