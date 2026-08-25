@@ -20,7 +20,7 @@ Preprint version: XXXX
         C.  Name: Ryan Germain
 		Institution: Aarhus University
 		
-4. Date of data collection: NA
+4. Date of data collection: 1950-2024
 
 5. Geographic location of data collection: Global
 
