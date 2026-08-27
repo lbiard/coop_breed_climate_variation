@@ -130,7 +130,7 @@ plot_mass <- ggplot(plot.dat, aes(x = inv_fun_mass(x2.sim), y = bayes.c.eff.mean
   geom_ribbon(aes(ymin = bayes.c.eff.lower, ymax = bayes.c.eff.upper), fill = "cornflowerblue", alpha = 0.15)+
   geom_line(color = "cornflowerblue", linewidth = 1.8, alpha=0.7)+
   xlab("Log mass")+
-  ylab(expression(paste("Absolute rainfall sensitivity (log ", lambda, " change per 100mm)")))+
+  ylab(expression(paste("Absolute precipitation sensitivity (log ", lambda, " change per 100mm)")))+
   theme_bw() +
   theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank())+
   theme(plot.title = element_text(size=10, hjust = 0.5),
@@ -245,7 +245,7 @@ plot.dat <- cbind(plot.dat, sp)
 
 plot_coop <- ggplot(data_meta_regression, aes(x = coop_num, y = abs_sens)) +
   xlab("")+
-  ylab(expression(paste("Absolute rainfall sensitivity (log ", lambda, " change per 100mm)")))+
+  ylab(expression(paste("Absolute precipitation sensitivity (log ", lambda, " change per 100mm)")))+
   ylim(c(0.04, 0.21))+
   theme_bw() +
   theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank())+
@@ -349,7 +349,7 @@ plot_latitude <- ggplot(plot.dat, aes(x = inv_fun_latitude(x2.sim), y = bayes.c.
   geom_ribbon(aes(ymin = bayes.c.eff.lower, ymax = bayes.c.eff.upper), fill = "cornflowerblue", alpha = 0.15)+
   geom_line(color = "cornflowerblue", linewidth = 1.8, alpha=0.7)+
   xlab("Absolute latitude")+
-  ylab(expression(paste("Absolute rainfall sensitivity (log ", lambda, " change per 100mm)")))+
+  ylab(expression(paste("Absolute precipitation sensitivity (log ", lambda, " change per 100mm)")))+
   theme_bw() +
   theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank())+
   theme(plot.title = element_text(size=10, hjust = 0.5),
@@ -424,7 +424,7 @@ plot_hwi <- ggplot(plot.dat, aes(x = inv_fun_hwi(x2.sim), y = bayes.c.eff.mean))
   geom_ribbon(aes(ymin = bayes.c.eff.lower, ymax = bayes.c.eff.upper), fill = "cornflowerblue", alpha = 0.15)+
   geom_line(color = "cornflowerblue", linewidth = 1.8, alpha=0.7)+
   xlab("Hand-wing index")+
-  ylab(expression(paste("Absolute rainfall sensitivity (log ", lambda, " change per 100mm)")))+
+  ylab(expression(paste("Absolute precipitation sensitivity (log ", lambda, " change per 100mm)")))+
   theme_bw() +
   theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank())+
   theme(plot.title = element_text(size=10, hjust = 0.5),
@@ -541,7 +541,7 @@ plot.dat <- cbind(plot.dat, sp)
 
 plot_mig <- ggplot(data_meta_regression, aes(x = migration, y = abs_sens)) +
   xlab("")+
-  ylab(expression(paste("Absolute rainfall sensitivity (log ", lambda, " change per 100mm)")))+
+  ylab(expression(paste("Absolute precipitation sensitivity (log ", lambda, " change per 100mm)")))+
   ylim(c(0.05, 0.2))+
   theme_bw() +
   theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank())+
