@@ -2,7 +2,7 @@
 
 This repository hosts data and code for Bliard L, Griesser M, Germain R. Populations of cooperatively breeding birds are buffered against annual variation in precipitation and temperature.
 
-Preprint version: XXXX
+Preprint version: https://doi.org/10.32942/X26T14 
 
 ## GENERAL INFORMATION
 
